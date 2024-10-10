@@ -1,0 +1,11 @@
+GET http://localhost:8082/
+###
+GET http://localhost:8082/currencies
+###
+GET http://localhost:8082/currencies/inr
+###
+GET http://localhost:8082/currencies/usd
+###
+GET http://localhost:8082/currencies?min_value=0.1
+###
+GET http://localhost:8082/currencies?min_value=1
